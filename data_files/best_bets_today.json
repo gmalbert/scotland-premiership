@@ -1,10 +1,10 @@
 {
   "meta": {
     "sport": "scotland",
-    "generated_at": null,
-    "model_version": "1.0.0",
-    "season": null,
-    "notes": "Template; run scripts/export_best_bets.py to generate today's best bets"
+    "generated_at": "2026-08-08T23:14:10.333603+00:00",
+    "model_version": "core-1.3.18",
+    "season": "2026",
+    "notes": "No Scottish Premiership predictions for 2026-08-08"
   },
   "bets": []
 }
