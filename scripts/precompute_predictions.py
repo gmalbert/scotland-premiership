@@ -17,7 +17,47 @@ from pitch_oracle_core import (
     build_prediction_frame,
     build_upcoming_feature_matrix,
 )
+from pitch_oracle_core.best_bets import MIN_EDGE, MIN_EXPECTED_VALUE, market_metrics
 from config import LEAGUE_CONFIG  # noqa: E402
+
+
+def add_market_recommendations(predictions: pd.DataFrame, odds_path: Path) -> pd.DataFrame:
+    """Attach matched odds and label only bets that clear the core value thresholds."""
+    if not odds_path.exists():
+        return predictions
+    odds = pd.read_csv(odds_path)
+    if odds.empty:
+        return predictions
+    keys = ["Date", "HomeTeam", "AwayTeam"]
+    merged = predictions.merge(odds, on=keys, how="left", validate="one_to_one")
+    outcomes = (
+        ("Home Win", "HomeWin_Prob", "OddsHome", "OddsHomeBookmaker"),
+        ("Draw", "Draw_Prob", "OddsDraw", "OddsDrawBookmaker"),
+        ("Away Win", "AwayWin_Prob", "OddsAway", "OddsAwayBookmaker"),
+    )
+    for index, row in merged.iterrows():
+        prices = [row.get("OddsHome"), row.get("OddsDraw"), row.get("OddsAway")]
+        if any(pd.isna(price) or float(price) <= 1 for price in prices):
+            continue
+        candidates = []
+        for label, probability_column, odds_column, bookmaker_column in outcomes:
+            market_probability, edge, expected_value = market_metrics(
+                float(row[probability_column]), float(row[odds_column]), [float(price) for price in prices]
+            )
+            candidates.append((expected_value, edge, market_probability, label, odds_column, bookmaker_column))
+        qualifying = [item for item in candidates if item[0] >= MIN_EXPECTED_VALUE and item[1] >= MIN_EDGE]
+        if not qualifying:
+            merged.at[index, "BetReason"] = "Market available, but no outcome clears the value thresholds."
+            continue
+        expected_value, edge, market_probability, label, odds_column, bookmaker_column = max(qualifying)
+        bookmaker = row.get(bookmaker_column) or "available bookmaker"
+        merged.at[index, "BetRecommendation"] = f"Bet {label}"
+        merged.at[index, "BetReason"] = (
+            f"{label} at {float(row[odds_column]):.2f} ({bookmaker}); "
+            f"model edge {edge:.1%}, expected value {expected_value:.1%}, "
+            f"no-vig market probability {market_probability:.1%}."
+        )
+    return merged
 
 
 def generate() -> Path:
@@ -47,7 +87,9 @@ def generate() -> Path:
         if feature in contract.feature_names:
             upcoming[feature] = matrix[:, contract.feature_names.index(feature)]
     output = ROOT / "data_files" / "upcoming_predictions.csv"
-    build_prediction_frame(upcoming, model.predict_proba(matrix)).to_csv(output, index=False)
+    predictions = build_prediction_frame(upcoming, model.predict_proba(matrix))
+    predictions = add_market_recommendations(predictions, ROOT / "data_files" / "odds.csv")
+    predictions.to_csv(output, index=False)
     return output
 
 
