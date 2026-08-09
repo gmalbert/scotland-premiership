@@ -15,6 +15,16 @@ def test_consumer_selects_a_registered_non_epl_league():
     assert LEAGUE_CONFIG.espn_slug
 
 
+def test_upcoming_home_teams_have_weather_coordinates():
+    fixtures = ROOT / "data_files" / "upcoming_fixtures.csv"
+    if not fixtures.exists():
+        return
+    import pandas as pd
+
+    home_teams = set(pd.read_csv(fixtures)["HomeTeam"].dropna())
+    assert home_teams <= set(LEAGUE_CONFIG.stadium_coordinates)
+
+
 def test_core_pin_is_synchronized_everywhere():
     assert __version__ == CORE_REF.removeprefix("v")
     pin = f"pitch-oracle-core[consumer] @ git+https://github.com/gmalbert/pitch-oracle-core.git@{CORE_REF}"

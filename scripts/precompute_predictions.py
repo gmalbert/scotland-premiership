@@ -21,6 +21,21 @@ from pitch_oracle_core.best_bets import MIN_EDGE, MIN_EXPECTED_VALUE, market_met
 from config import LEAGUE_CONFIG  # noqa: E402
 
 
+def clear_unavailable_weather_defaults(frame: pd.DataFrame) -> pd.DataFrame:
+    """Do not present the weather fallback's zero rain as a real forecast."""
+    required = {"Temperature", "Humidity", "WindSpeed", "Precipitation"}
+    if not required.issubset(frame.columns):
+        return frame
+    result = frame.copy()
+    missing_measurements = result[["Temperature", "Humidity", "WindSpeed"]].isna().all(axis=1)
+    description = result.get(
+        "WeatherDescription", pd.Series("", index=result.index, dtype=str)
+    ).fillna("").astype(str).str.strip()
+    unavailable = missing_measurements & description.isin(("", "Unknown"))
+    result.loc[unavailable, "Precipitation"] = pd.NA
+    return result
+
+
 def add_market_recommendations(predictions: pd.DataFrame, odds_path: Path) -> pd.DataFrame:
     """Attach matched odds and label only bets that clear the core value thresholds."""
     if not odds_path.exists():
@@ -78,6 +93,7 @@ def generate() -> Path:
             data_dir=ROOT / "data_files",
             timezone=LEAGUE_CONFIG.sources.weather_timezone,
         )
+        upcoming = clear_unavailable_weather_defaults(upcoming)
     contract = FeatureContract.load(ROOT / "precomputed" / "preprocessed_data.pkl")
     with (ROOT / "models" / "ensemble_model.pkl").open("rb") as stream:
         model = pickle.load(stream)
