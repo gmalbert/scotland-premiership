@@ -19,7 +19,7 @@ automatically copy the core repository's local `.env` when it exists. The
 populated file is Git-ignored and must never be committed.
 
 To enable betting recommendations, set `ODDS_API_IO_KEY` in `.env`. The optional
-`ODDS_API_BOOKMAKERS` value should list the bookmakers selected in your
+`ODDS_API_IO_BOOKMAKERS` value should list the bookmakers selected in your
 Odds-API.io account (the default is `Bet365,Unibet`). Add `ODDS_API_IO_KEY` as a
 repository Actions secret as well so scheduled artifact builds can refresh odds.
 

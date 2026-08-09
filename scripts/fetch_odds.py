@@ -120,9 +120,9 @@ def fetch() -> Path | None:
         print("ODDS_API_IO_KEY is not configured; leaving betting odds unavailable.")
         return None
 
-    bookmakers = os.getenv("ODDS_API_BOOKMAKERS", DEFAULT_BOOKMAKERS).strip()
+    bookmakers = os.getenv("ODDS_API_IO_BOOKMAKERS", DEFAULT_BOOKMAKERS).strip()
     if not bookmakers:
-        raise RuntimeError("ODDS_API_BOOKMAKERS must contain at least one bookmaker.")
+        raise RuntimeError("ODDS_API_IO_BOOKMAKERS must contain at least one bookmaker.")
 
     fixtures_path = ROOT / "data_files" / "upcoming_fixtures.csv"
     fixtures = pd.read_csv(fixtures_path)
