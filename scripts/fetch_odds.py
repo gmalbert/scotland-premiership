@@ -115,9 +115,9 @@ def _best_moneyline(event: dict[str, object]) -> dict[str, object] | None:
 
 def fetch() -> Path | None:
     load_dotenv(ROOT / ".env")
-    api_key = os.getenv("ODDS_API_KEY", "").strip()
+    api_key = os.getenv("ODDS_API_IO_KEY", "").strip()
     if not api_key:
-        print("ODDS_API_KEY is not configured; leaving betting odds unavailable.")
+        print("ODDS_API_IO_KEY is not configured; leaving betting odds unavailable.")
         return None
 
     bookmakers = os.getenv("ODDS_API_BOOKMAKERS", DEFAULT_BOOKMAKERS).strip()
