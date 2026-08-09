@@ -1,54 +1,54 @@
 {
   "schema_version": 2,
-  "core_version": "1.3.24",
+  "core_version": "1.3.26",
   "feature_policy_version": 3,
   "league": "scotland",
-  "created_at": "2026-08-09T07:42:29.858708+00:00",
+  "created_at": "2026-08-09T14:01:40.725976+00:00",
   "artifacts": {
     "preprocessed_data": {
       "path": "precomputed/preprocessed_data.pkl",
-      "bytes": 2489743,
-      "sha256": "8110e2755a96fe99ce89b70c6a8aaa11557e59348b90e7818b898742762567e7"
+      "bytes": 2589580,
+      "sha256": "4b57b4907ddecd11baf3c060e2a17a336e5c04f5a0aa16a449f9bfb102e99000"
     },
     "xgb_baseline": {
       "path": "models/xgb_baseline.pkl",
-      "bytes": 526696,
-      "sha256": "17fcd754a2b08a4ee36c6af447bf39418a1e51404a2fd68827f78c0f3bf0bcbc"
+      "bytes": 525561,
+      "sha256": "1cf3e76876639450921a09037289bc70e6f31190752ab1d05bd358ef2bf6e5f3"
     },
     "ensemble": {
       "path": "models/ensemble_model.pkl",
-      "bytes": 3879,
-      "sha256": "dffe139b0647bcefefa0b5cceaaff7794c7b9e8815bf435dd0453c8977569ef7"
+      "bytes": 4071,
+      "sha256": "de363733e900279d2e56da4103240f9455ea9ac146cbdd462d4035c1be2681b9"
     },
     "optimized_xgb": {
       "path": "models/optimized_xgb.pkl",
-      "bytes": 1116928,
-      "sha256": "bd284706b490f0d5d6a782a6929454d61df5f0e0b25430a1067be57c79f7c25a"
+      "bytes": 1124973,
+      "sha256": "ab8a36b68ffe8acf7cf02a6f2675270c94edca96644d12fe7fd54481374a9261"
     },
     "performance": {
       "path": "models/model_performance.pkl",
       "bytes": 1086,
-      "sha256": "ba770e89c424dc656dc86afe97c1747623e63abc3c863039ecd01d0c0220ddd2"
+      "sha256": "5be39236d2ba8696f2db28515837411f1709b34437145f6a283b9ac6bba8b8e6"
     },
     "model_metadata": {
       "path": "models/model_metadata.json",
-      "bytes": 1819,
-      "sha256": "bebcbe71a68cdac9ac5f269e59130123a2501375b78971372bdc3d99c29f057d"
+      "bytes": 1965,
+      "sha256": "0f4493c365acd0faf40f989ef587a78f4c033a09c766dbfa6d80bbc87ebaf8de"
     },
     "model_audit": {
       "path": "precomputed/model-audit/model_ablation.json",
-      "bytes": 1843,
-      "sha256": "decbf51fc5b88cf8f59d54fbb666cdb5cab7b22749c983c222c9f726d07a7db4"
+      "bytes": 1908,
+      "sha256": "2b8a425a0110a88eed226428b829ecf10ef9ea3f0198912b2cf0bf86dee7fa85"
     },
     "upcoming_fixtures": {
       "path": "data_files/upcoming_fixtures.csv",
-      "bytes": 1920,
-      "sha256": "04dbeb9b5dce72c06e68a6f92e6b21f036d47cec85270001c71c69f342f87527"
+      "bytes": 1954,
+      "sha256": "22e3e3ed3229d5e4d81446303d1eef52ca7968da152b23417e5d600011351efa"
     },
     "upcoming_predictions": {
       "path": "data_files/upcoming_predictions.csv",
-      "bytes": 12444,
-      "sha256": "797cb3b3028b1f0798d0bc2e5f2d1f013f7070a88f96f5afa3bad2d54a9ed42d"
+      "bytes": 14803,
+      "sha256": "ada915c332b815a084d6130c37ecd96ac56578eec84427ac5a7ee8505a928fd7"
     }
   }
 }

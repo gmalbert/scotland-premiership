@@ -9,3 +9,4 @@ venv/
 *.log
 .cache.sqlite
 .playwright-cli/
+*code-workspace

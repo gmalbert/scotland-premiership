@@ -23,6 +23,10 @@
     "H2HDrawLast5",
     "HomeRestDays",
     "AwayRestDays",
+    "Temperature",
+    "Humidity",
+    "WindSpeed",
+    "Precipitation",
     "HomexG_Avg_L5",
     "HomeShootingEff_Avg_L5",
     "HomeMomentum_L3",
@@ -58,7 +62,7 @@
     "HomeWinStreakHome_L5",
     "AwayWinStreakAway_L5"
   ],
-  "feature_count": 55,
+  "feature_count": 59,
   "split_strategy": "chronological_train_calibration_test",
   "train_rows": 549,
   "calibration_rows": 184,
@@ -66,5 +70,5 @@
   "calibration_method": "temperature_scaling",
   "production_model": "regularized_multinomial_logistic_regression",
   "release_gate": "beats_training_class_prior_on_log_loss_and_brier",
-  "generated_at": "2026-08-09T07:42:19.119028+00:00"
+  "generated_at": "2026-08-09T13:35:54.094552+00:00"
 }

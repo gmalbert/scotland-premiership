@@ -1,7 +1,10 @@
 import pandas as pd
 
 from scripts.fetch_odds import _best_moneyline, _find_league_slug, _match_fixture
-from scripts.precompute_predictions import add_market_recommendations
+from scripts.precompute_predictions import (
+    add_market_recommendations,
+    clear_unavailable_weather_defaults,
+)
 
 
 def test_find_scottish_premiership_slug():
@@ -57,3 +60,19 @@ def test_market_recommendation_replaces_unavailable_fallback(tmp_path):
     result = add_market_recommendations(predictions, odds_path)
     assert result.loc[0, "BetRecommendation"] == "Bet Home Win"
     assert "Bet365" in result.loc[0, "BetReason"]
+
+
+def test_unavailable_weather_does_not_claim_zero_rain():
+    frame = pd.DataFrame(
+        [{
+            "Temperature": None,
+            "Humidity": None,
+            "WindSpeed": None,
+            "Precipitation": 0,
+            "WeatherDescription": "Unknown",
+        }]
+    )
+
+    result = clear_unavailable_weather_defaults(frame)
+
+    assert pd.isna(result.loc[0, "Precipitation"])
