@@ -31,16 +31,17 @@ def _normalise_team(value: object) -> str:
 
 
 def _get_json(path: str, api_key: str, **params: object) -> object:
-    response = requests.get(
-        f"{API_ROOT}/{path}",
-        params={"apiKey": api_key, **params},
-        timeout=30,
-    )
     try:
-        response.raise_for_status()
-    except requests.HTTPError as exc:
+        response = requests.get(
+            f"{API_ROOT}/{path}",
+            params={"apiKey": api_key, **params},
+            timeout=30,
+        )
+    except requests.RequestException:
+        raise RuntimeError(f"Odds-API.io {path} request failed before a response was received.") from None
+    if not response.ok:
         detail = response.text[:300].replace("\n", " ")
-        raise RuntimeError(f"Odds-API.io {path} request failed ({response.status_code}): {detail}") from exc
+        raise RuntimeError(f"Odds-API.io {path} request failed ({response.status_code}): {detail}") from None
     return response.json()
 
 
