@@ -1,8 +1,4 @@
 Date,Time,HomeTeam,AwayTeam,Status
-2026-08-09,08:30,Kilmarnock,Celtic,STATUS_HALFTIME
-2026-08-09,10:00,Heart of Midlothian,Dundee United,STATUS_SCHEDULED
-2026-08-09,10:00,Motherwell,Falkirk,STATUS_SCHEDULED
-2026-08-09,11:00,Rangers,Hibernian,STATUS_SCHEDULED
 2026-08-22,10:00,Falkirk,Heart of Midlothian,STATUS_POSTPONED
 2026-08-22,10:00,Hibernian,Kilmarnock,STATUS_SCHEDULED
 2026-08-22,10:00,Motherwell,Aberdeen,STATUS_SCHEDULED
