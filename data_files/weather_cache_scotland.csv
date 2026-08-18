@@ -3,14 +3,14 @@ Temperature,Humidity,WindSpeed,Precipitation,WeatherCondition,WeatherDescription
 15.784500122070312,74.0,5.400000095367432,0.3000000119209289,Moderate drizzle,Moderate drizzle,Heart of Midlothian_2026-08-09,Heart of Midlothian
 14.400500297546388,90.0,2.900000095367432,1.2999999523162842,Slight rain,Slight rain,Motherwell_2026-08-09,Motherwell
 16.58249855041504,70.0,4.0,0.2000000029802322,Moderate drizzle,Moderate drizzle,Rangers_2026-08-09,Rangers
-17.48699951171875,48.0,3.299999952316284,0.0,Overcast,Overcast,Falkirk_2026-08-22,Falkirk
-17.516000747680664,45.0,3.5,0.0,Overcast,Overcast,Hibernian_2026-08-22,Hibernian
-16.163000106811523,55.0,3.200000047683716,0.0,Fog,Fog,Motherwell_2026-08-22,Motherwell
-17.66349983215332,48.0,3.9000000953674316,0.0,Overcast,Overcast,Rangers_2026-08-22,Rangers
-17.007999420166016,54.0,3.799999952316284,0.0,Overcast,Overcast,St Johnstone_2026-08-22,St Johnstone
-16.800500869750977,50.0,3.0999999046325684,0.0,Overcast,Overcast,Dundee United_2026-08-22,Dundee United
-18.5,59.44489669799805,3.070016384124756,0.0,Light drizzle,Light drizzle,Celtic_2026-08-29,Celtic
-17.799999237060547,69.28898620605469,3.453259229660034,0.10000000149011612,Light drizzle,Light drizzle,Heart of Midlothian_2026-08-29,Heart of Midlothian
+18.036998748779297,56.0,1.100000023841858,0.0,Overcast,Overcast,Falkirk_2026-08-22,Falkirk
+17.61600112915039,54.0,1.100000023841858,0.0,Overcast,Overcast,Hibernian_2026-08-22,Hibernian
+16.51300048828125,63.0,1.5,0.0,Overcast,Overcast,Motherwell_2026-08-22,Motherwell
+18.16349983215332,58.0,1.7999999523162842,0.0,Light drizzle,Light drizzle,Rangers_2026-08-22,Rangers
+18.058000564575195,57.0,1.2999999523162842,0.0,Overcast,Overcast,St Johnstone_2026-08-22,St Johnstone
+16.500499725341797,61.0,0.800000011920929,0.10000000149011612,Light drizzle,Light drizzle,Dundee United_2026-08-22,Dundee United
+18.5,59.44489669799805,2.616295099258423,0.0,Light drizzle,Light drizzle,Celtic_2026-08-29,Celtic
+17.799999237060547,69.28898620605469,2.902585029602051,0.10000000149011612,Light drizzle,Light drizzle,Heart of Midlothian_2026-08-29,Heart of Midlothian
 18.25,56.4747314453125,3.3615472316741943,0.0,Moderate drizzle,Moderate drizzle,Kilmarnock_2026-08-29,Kilmarnock
 16.450000762939453,59.550445556640625,5.172281742095947,0.0,Slight rain showers,Slight rain showers,Aberdeen_2026-08-30,Aberdeen
 13.850000381469727,73.04228973388672,6.6241984367370605,0.0,Thunderstorm,Thunderstorm,Dundee_2026-08-30,Dundee

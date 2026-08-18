@@ -35,3 +35,9 @@ Date,Time,HomeTeam,AwayTeam,Status
 2026-10-10,10:00,Heart of Midlothian,St Mirren,STATUS_SCHEDULED
 2026-10-10,10:00,Motherwell,Celtic,STATUS_SCHEDULED
 2026-10-10,10:00,Rangers,Kilmarnock,STATUS_SCHEDULED
+2026-10-17,10:00,Aberdeen,St Mirren,STATUS_SCHEDULED
+2026-10-17,10:00,Celtic,Heart of Midlothian,STATUS_SCHEDULED
+2026-10-17,10:00,Dundee,Rangers,STATUS_SCHEDULED
+2026-10-17,10:00,Hibernian,Falkirk,STATUS_SCHEDULED
+2026-10-17,10:00,Kilmarnock,Motherwell,STATUS_SCHEDULED
+2026-10-17,10:00,St Johnstone,Dundee United,STATUS_SCHEDULED
