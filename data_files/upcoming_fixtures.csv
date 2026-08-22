@@ -1,7 +1,4 @@
 Date,Time,HomeTeam,AwayTeam,Status
-2026-08-22,10:00,Falkirk,Heart of Midlothian,STATUS_POSTPONED
-2026-08-22,10:00,Hibernian,Kilmarnock,STATUS_POSTPONED
-2026-08-22,10:00,Motherwell,Aberdeen,STATUS_POSTPONED
 2026-08-22,10:00,Rangers,St Mirren,STATUS_POSTPONED
 2026-08-22,10:00,St Johnstone,Celtic,STATUS_POSTPONED
 2026-08-22,12:45,Dundee United,Dundee,STATUS_SCHEDULED
@@ -23,6 +20,9 @@ Date,Time,HomeTeam,AwayTeam,Status
 2026-09-05,15:00,St Mirren,Celtic,STATUS_SCHEDULED
 2026-09-06,10:00,Heart of Midlothian,Dundee,STATUS_SCHEDULED
 2026-09-06,10:00,St Johnstone,Hibernian,STATUS_SCHEDULED
+2026-09-15,14:45,Falkirk,Heart of Midlothian,STATUS_SCHEDULED
+2026-09-15,14:45,Hibernian,Kilmarnock,STATUS_SCHEDULED
+2026-09-15,14:45,Motherwell,Aberdeen,STATUS_SCHEDULED
 2026-09-19,10:00,Dundee,Motherwell,STATUS_SCHEDULED
 2026-09-19,10:00,Hibernian,Aberdeen,STATUS_SCHEDULED
 2026-09-19,10:00,St Johnstone,Falkirk,STATUS_SCHEDULED
