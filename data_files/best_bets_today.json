@@ -1,27 +1,10 @@
 {
   "meta": {
     "sport": "scotland",
-    "generated_at": "2026-08-22T07:51:47.869834+00:00",
+    "generated_at": "2026-08-23T07:51:39.578598+00:00",
     "model_version": "core-1.3.26",
-    "season": "2026"
+    "season": "2026",
+    "notes": "No Scottish Premiership predictions for 2026-08-23"
   },
-  "bets": [
-    {
-      "game_date": "2026-08-22",
-      "game_time": "12:45",
-      "game": "Dundee @ Dundee United",
-      "home_team": "Dundee United",
-      "away_team": "Dundee",
-      "bet_type": "Match Result",
-      "pick": "Draw",
-      "confidence": 0.2961,
-      "edge": 0.0349,
-      "market_probability": 0.2612,
-      "expected_value": 0.0659,
-      "tier": "Good",
-      "odds": 260,
-      "line": null,
-      "league": "Scottish Premiership"
-    }
-  ]
+  "bets": []
 }
