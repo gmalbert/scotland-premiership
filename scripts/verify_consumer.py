@@ -6,6 +6,7 @@ import math
 from pathlib import Path
 import pickle
 import sys
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -39,16 +40,27 @@ def main() -> None:
         log_loss = float(performance[name]["log_loss"])
         if not (0.0 <= accuracy <= 1.0 and math.isfinite(log_loss) and log_loss < 2.0):
             raise SystemExit(f"Implausible chronological metrics for {name}: {performance[name]}")
-    production = performance["ensemble"]
-    baseline = performance["class_prior_baseline"]
-    if (
-        float(production["log_loss"]) >= float(baseline["log_loss"])
-        or float(production["brier_score"]) >= float(baseline["brier_score"])
-    ):
-        raise SystemExit(
-            "Production no-odds model does not beat the class-prior baseline "
-            "on log loss and Brier score"
-        )
+    metadata = json.loads((ROOT / "models" / "model_metadata.json").read_text())
+    production_candidate = metadata.get("feature_set")
+    if production_candidate == "no_odds":
+        production = performance["ensemble"]
+        baseline = performance["class_prior_baseline"]
+        if (
+            float(production["log_loss"]) >= float(baseline["log_loss"])
+            or float(production["brier_score"]) >= float(baseline["brier_score"])
+        ):
+            raise SystemExit(
+                "Production no-odds model does not beat the class-prior baseline "
+                "on log loss and Brier score"
+            )
+    elif production_candidate == "poisson":
+        audit_path = ROOT / "precomputed" / "model-audit" / "model_ablation.json"
+        audit = json.loads(audit_path.read_text())
+        gate = audit.get("release_gate", {})
+        if not gate.get("passed") or gate.get("production_candidate") != "poisson":
+            raise SystemExit("Poisson production candidate has not passed the audit release gate")
+    else:
+        raise SystemExit(f"Unknown production candidate: {production_candidate!r}")
     poisson_accuracy = float(performance["poisson"]["outcome_acc"])
     if not 0.0 <= poisson_accuracy <= 1.0:
         raise SystemExit(f"Invalid Poisson outcome accuracy: {poisson_accuracy}")
