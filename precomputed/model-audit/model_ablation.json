@@ -1,63 +1,79 @@
 {
   "source": "data_files/combined_historical_data_with_calculations_new.csv",
   "data_quality": {
-    "rows": 924,
+    "rows": 925,
     "invalid_dates": 0,
     "completed_future_rows": 0,
     "earliest_date": "2022-07-30T00:00:00",
-    "latest_date": "2026-08-09T00:00:00",
+    "latest_date": "2026-08-22T00:00:00",
     "duplicate_fixture_rows": 0,
-    "duplicate_no_odds_feature_rows": 12
+    "duplicate_no_odds_feature_rows": 6
   },
   "status": "complete",
   "release_gate": {
     "passed": true,
-    "criteria": "no_odds beats rolling class-prior baseline on log loss and Brier score"
+    "production_candidate": "poisson",
+    "criteria": "best of no_odds and poisson beats rolling class-prior baseline on log loss and Brier score"
   },
   "ablation": [
     {
       "candidate": "class_prior_baseline",
       "feature_count": 0,
       "folds": 3,
-      "test_rows": 453,
+      "test_rows": 451,
       "metrics": {
-        "accuracy": 0.4613686534216336,
-        "log_loss": 1.0609998830116765,
-        "brier_score": 0.6408270466889142,
-        "calibration_error": 0.007859305220659196,
+        "accuracy": 0.458980044345898,
+        "log_loss": 1.0614924150697473,
+        "brier_score": 0.6413100241104296,
+        "calibration_error": 0.01062405425238172,
         "draw_recall": 0.0,
-        "mean_confidence": 0.4692279586422928,
+        "mean_confidence": 0.46960409859827973,
         "decisive_lean_rate": 0.0
       }
     },
     {
       "candidate": "odds_heavy",
-      "feature_count": 206,
+      "feature_count": 178,
       "folds": 3,
-      "test_rows": 453,
+      "test_rows": 451,
       "metrics": {
-        "accuracy": 0.45253863134657835,
-        "log_loss": 1.852360225382556,
-        "brier_score": 0.7795236094793776,
-        "calibration_error": 0.2680479347653195,
-        "draw_recall": 0.2358490566037736,
-        "mean_confidence": 0.7110252380077614,
-        "decisive_lean_rate": 0.7328918322295805
+        "accuracy": 0.4634146341463415,
+        "log_loss": 1.6362803661486789,
+        "brier_score": 0.7303633328680057,
+        "calibration_error": 0.21479795607942678,
+        "draw_recall": 0.24528301886792453,
+        "mean_confidence": 0.6782125902257682,
+        "decisive_lean_rate": 0.6496674057649667
       }
     },
     {
       "candidate": "no_odds",
-      "feature_count": 55,
+      "feature_count": 40,
       "folds": 3,
-      "test_rows": 453,
+      "test_rows": 451,
       "metrics": {
-        "accuracy": 0.46578366445916114,
-        "log_loss": 1.0453176345257449,
-        "brier_score": 0.6236940441733063,
-        "calibration_error": 0.059442573085971194,
-        "draw_recall": 0.07547169811320754,
-        "mean_confidence": 0.5245055612950527,
-        "decisive_lean_rate": 0.35320088300220753
+        "accuracy": 0.5077605321507761,
+        "log_loss": 1.009679026728354,
+        "brier_score": 0.5959505625632586,
+        "calibration_error": 0.05413947803233419,
+        "draw_recall": 0.16037735849056603,
+        "mean_confidence": 0.5310533870840984,
+        "decisive_lean_rate": 0.36363636363636365
+      }
+    },
+    {
+      "candidate": "poisson",
+      "feature_count": 0,
+      "folds": 3,
+      "test_rows": 451,
+      "metrics": {
+        "accuracy": 0.5277161862527716,
+        "log_loss": 0.9956352374157275,
+        "brier_score": 0.5905820738936135,
+        "calibration_error": 0.06503795814295607,
+        "draw_recall": 0.0,
+        "mean_confidence": 0.5903594665426332,
+        "decisive_lean_rate": 0.5299334811529933
       }
     }
   ]
