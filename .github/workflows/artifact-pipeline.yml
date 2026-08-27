@@ -14,9 +14,9 @@ concurrency:
 
 jobs:
   build-and-validate:
-    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@v1.3.27
+    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@e7b74f0ca74f47332c11a8b5bc5d38b66193bcb1
     with:
-      core_ref: v1.3.27
+      core_ref: e7b74f0ca74f47332c11a8b5bc5d38b66193bcb1
       league_key: scotland
       odds_api_io_bookmakers: ${{ vars.ODDS_API_IO_BOOKMAKERS || 'DraftKings,Bet365' }}
       data_command: >-
@@ -24,6 +24,6 @@ jobs:
         python -m fetch_upcoming_fixtures &&
         python scripts/fetch_odds.py &&
         python -m prepare_model_data
-      training_command: python -m train_models
+      training_command: python scripts/train_models_with_goal_aliases.py
       prediction_command: python scripts/precompute_predictions.py
     secrets: inherit
