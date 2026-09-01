@@ -15,17 +15,20 @@ Temperature,Humidity,WindSpeed,Precipitation,WeatherCondition,WeatherDescription
 14.746999740600586,83.0,3.299999952316284,0.0,Light drizzle,Light drizzle,Aberdeen_2026-08-30,Aberdeen
 13.851499557495115,97.0,4.5,2.200000047683716,Moderate rain,Moderate rain,Dundee_2026-08-30,Dundee
 17.982500076293945,75.0,1.100000023841858,0.0,Heavy rain,Heavy rain,St Mirren_2026-08-30,St Mirren
-14.944000244140625,83.0,3.0,0.0,Moderate rain,Moderate rain,Celtic_2026-09-02,Celtic
-13.737499237060547,73.0,4.599999904632568,0.0,Moderate drizzle,Moderate drizzle,Dundee_2026-09-02,Dundee
-17.46500015258789,76.0,4.900000095367432,0.0,Slight rain,Slight rain,Kilmarnock_2026-09-02,Kilmarnock
-14.663000106811523,87.0,1.5,0.0,Dense drizzle,Dense drizzle,Motherwell_2026-09-02,Motherwell
-14.837000846862793,80.0,2.5,0.0,Moderate rain,Moderate rain,Falkirk_2026-09-02,Falkirk
-18.266000747680664,62.0,5.900000095367432,0.20000000298023224,Moderate drizzle,Moderate drizzle,Hibernian_2026-09-03,Hibernian
-17.77750015258789,56.0,4.5,0.0,Overcast,Overcast,Aberdeen_2026-09-05,Aberdeen
-18.15049934387207,52.0,4.0,0.0,Overcast,Overcast,Dundee United_2026-09-05,Dundee United
-17.9635009765625,54.0,3.0,0.0,Overcast,Overcast,Rangers_2026-09-05,Rangers
-17.970001220703125,54.0,3.0,0.0,Overcast,Overcast,St Mirren_2026-09-05,St Mirren
-15.094499588012695,94.0,1.600000023841858,0.800000011920929,Slight rain,Slight rain,Heart of Midlothian_2026-09-06,Heart of Midlothian
-14.657999992370605,95.0,1.600000023841858,0.4000000059604645,Moderate rain,Moderate rain,St Johnstone_2026-09-06,St Johnstone
-15.350000381469727,69.72946166992188,6.7366533279418945,0.10000000149011612,Dense drizzle,Dense drizzle,Rangers_2026-09-09,Rangers
-15.199999809265137,72.55462646484375,6.308922290802002,0.20000000298023224,Moderate drizzle,Moderate drizzle,St Johnstone_2026-09-09,St Johnstone
+17.213001251220703,68.0,2.799999952316284,0.0,Light drizzle,Light drizzle,Celtic_2026-09-02,Celtic
+14.55150032043457,73.0,3.5999999046325684,0.0,Overcast,Overcast,Dundee_2026-09-02,Dundee
+18.20199966430664,71.0,1.899999976158142,0.0,Light drizzle,Light drizzle,Kilmarnock_2026-09-02,Kilmarnock
+16.800500869750977,72.0,2.799999952316284,0.0,Overcast,Overcast,Motherwell_2026-09-02,Motherwell
+15.286499977111816,71.0,3.700000047683716,0.0,Overcast,Overcast,Falkirk_2026-09-02,Falkirk
+19.266000747680664,55.0,4.900000095367432,0.0,Moderate drizzle,Moderate drizzle,Hibernian_2026-09-03,Hibernian
+17.127500534057617,51.0,4.599999904632568,0.0,Overcast,Overcast,Aberdeen_2026-09-05,Aberdeen
+16.15049934387207,63.0,4.800000190734863,0.10000000149011612,Light drizzle,Light drizzle,Dundee United_2026-09-05,Dundee United
+16.563499450683594,59.0,4.699999809265137,0.0,Overcast,Overcast,Rangers_2026-09-05,Rangers
+16.56999969482422,59.0,4.699999809265137,0.0,Overcast,Overcast,St Mirren_2026-09-05,St Mirren
+16.79450035095215,61.0,2.5999999046325684,0.10000000149011612,Light drizzle,Light drizzle,Heart of Midlothian_2026-09-06,Heart of Midlothian
+16.408000946044922,69.0,2.200000047683716,0.0,Overcast,Overcast,St Johnstone_2026-09-06,St Johnstone
+14.649999618530273,57.508731842041016,3.358943223953247,0.0,Overcast,Overcast,Rangers_2026-09-09,Rangers
+14.5,59.48297882080078,2.9516944885253906,0.0,Overcast,Overcast,St Johnstone_2026-09-09,St Johnstone
+16.350000381469727,65.63175964355469,6.2229413986206055,0.0,Light drizzle,Light drizzle,Falkirk_2026-09-15,Falkirk
+16.359498977661133,66.07453155517578,6.228964328765869,0.0,Overcast,Overcast,Hibernian_2026-09-15,Hibernian
+16.100000381469727,66.68575286865234,5.377034664154053,0.0,Light drizzle,Light drizzle,Motherwell_2026-09-15,Motherwell
