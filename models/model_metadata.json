@@ -51,5 +51,5 @@
   "calibration_method": "temperature_scaling",
   "production_model": "walk_forward_poisson",
   "release_gate": "beats_training_class_prior_on_log_loss_and_brier",
-  "generated_at": "2026-09-04T07:32:49.038157+00:00"
+  "generated_at": "2026-09-05T07:29:23.174198+00:00"
 }
