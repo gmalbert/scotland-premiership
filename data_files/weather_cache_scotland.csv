@@ -29,12 +29,12 @@ Temperature,Humidity,WindSpeed,Precipitation,WeatherCondition,WeatherDescription
 19.97599983215332,62.0,6.5,0.0,Light drizzle,Light drizzle,St Johnstone_2026-09-06,St Johnstone
 15.513500213623049,53.0,3.400000095367432,0.0,Mainly clear,Mainly clear,Rangers_2026-09-09,Rangers
 16.808000564575195,50.0,3.0,0.0,Clear sky,Clear sky,St Johnstone_2026-09-09,St Johnstone
-15.73650074005127,82.0,4.800000190734863,0.4000000059604645,Light drizzle,Light drizzle,Falkirk_2026-09-15,Falkirk
-16.752500534057617,69.0,5.300000190734863,0.0,Moderate rain,Moderate rain,Hibernian_2026-09-15,Hibernian
-14.95050048828125,83.0,5.199999809265137,0.800000011920929,Slight rain,Slight rain,Motherwell_2026-09-15,Motherwell
-15.1875,56.0,5.800000190734863,0.0,Light drizzle,Light drizzle,Dundee_2026-09-19,Dundee
-15.165999412536621,55.0,4.900000095367432,0.0,Light drizzle,Light drizzle,Hibernian_2026-09-19,Hibernian
-14.607999801635742,58.0,5.199999809265137,0.0,Overcast,Overcast,St Johnstone_2026-09-19,St Johnstone
-14.370000839233398,62.0,5.099999904632568,0.0,Light drizzle,Light drizzle,St Mirren_2026-09-19,St Mirren
-12.815000534057617,76.0,5.099999904632568,0.0,Moderate drizzle,Moderate drizzle,Kilmarnock_2026-09-19,Kilmarnock
-13.199999809265137,69.0,2.7932956218719482,0.0,Light drizzle,Light drizzle,Celtic_2026-09-20,Celtic
+16.936498641967773,73.0,5.599999904632568,0.0,Moderate drizzle,Moderate drizzle,Falkirk_2026-09-15,Falkirk
+17.252500534057617,77.0,6.099999904632568,0.0,Moderate drizzle,Moderate drizzle,Hibernian_2026-09-15,Hibernian
+16.20050048828125,83.0,4.900000095367432,0.0,Moderate rain,Moderate rain,Motherwell_2026-09-15,Motherwell
+16.237499237060547,58.0,9.5,0.10000000149011612,Light drizzle,Light drizzle,Dundee_2026-09-19,Dundee
+15.265999794006348,58.0,8.399999618530273,0.10000000149011612,Light drizzle,Light drizzle,Hibernian_2026-09-19,Hibernian
+15.958000183105469,59.0,8.899999618530273,0.10000000149011612,Light drizzle,Light drizzle,St Johnstone_2026-09-19,St Johnstone
+14.819999694824219,59.0,8.100000381469727,0.20000000298023224,Light drizzle,Light drizzle,St Mirren_2026-09-19,St Mirren
+14.265000343322754,66.0,9.5,0.20000000298023224,Moderate drizzle,Moderate drizzle,Kilmarnock_2026-09-19,Kilmarnock
+14.894000053405762,64.0,4.5,0.0,Light drizzle,Light drizzle,Celtic_2026-09-20,Celtic
