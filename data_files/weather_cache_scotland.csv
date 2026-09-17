@@ -32,9 +32,9 @@ Temperature,Humidity,WindSpeed,Precipitation,WeatherCondition,WeatherDescription
 16.936498641967773,73.0,5.599999904632568,0.0,Moderate drizzle,Moderate drizzle,Falkirk_2026-09-15,Falkirk
 17.252500534057617,77.0,6.099999904632568,0.0,Moderate drizzle,Moderate drizzle,Hibernian_2026-09-15,Hibernian
 16.20050048828125,83.0,4.900000095367432,0.0,Moderate rain,Moderate rain,Motherwell_2026-09-15,Motherwell
-16.237499237060547,58.0,9.5,0.10000000149011612,Light drizzle,Light drizzle,Dundee_2026-09-19,Dundee
-15.265999794006348,58.0,8.399999618530273,0.10000000149011612,Light drizzle,Light drizzle,Hibernian_2026-09-19,Hibernian
-15.958000183105469,59.0,8.899999618530273,0.10000000149011612,Light drizzle,Light drizzle,St Johnstone_2026-09-19,St Johnstone
-14.819999694824219,59.0,8.100000381469727,0.20000000298023224,Light drizzle,Light drizzle,St Mirren_2026-09-19,St Mirren
-14.265000343322754,66.0,9.5,0.20000000298023224,Moderate drizzle,Moderate drizzle,Kilmarnock_2026-09-19,Kilmarnock
-14.894000053405762,64.0,4.5,0.0,Light drizzle,Light drizzle,Celtic_2026-09-20,Celtic
+15.337499618530273,51.0,10.100000381469727,0.0,Overcast,Overcast,Dundee_2026-09-19,Dundee
+16.06599998474121,46.0,8.100000381469727,0.0,Moderate drizzle,Moderate drizzle,Hibernian_2026-09-19,Hibernian
+15.357999801635742,54.0,9.300000190734863,0.0,Light drizzle,Light drizzle,St Johnstone_2026-09-19,St Johnstone
+14.920000076293945,54.0,7.900000095367432,0.0,Slight rain,Slight rain,St Mirren_2026-09-19,St Mirren
+13.96500015258789,64.0,9.199999809265137,0.0,Moderate drizzle,Moderate drizzle,Kilmarnock_2026-09-19,Kilmarnock
+14.594000816345215,50.0,5.900000095367432,0.0,Light drizzle,Light drizzle,Celtic_2026-09-20,Celtic
