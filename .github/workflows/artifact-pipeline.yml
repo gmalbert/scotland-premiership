@@ -14,9 +14,9 @@ concurrency:
 
 jobs:
   build-and-validate:
-    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@eb7750c5fd033213051511723e35ec253c3f1ca8
+    uses: gmalbert/pitch-oracle-core/.github/workflows/precompute-consumer.yml@ac8594de41f8ac0a2f89de4f521ff6f324ace799
     with:
-      core_ref: eb7750c5fd033213051511723e35ec253c3f1ca8
+      core_ref: ac8594de41f8ac0a2f89de4f521ff6f324ace799
       league_key: scotland
       odds_api_io_bookmakers: ${{ vars.ODDS_API_IO_BOOKMAKERS || 'DraftKings,Bet365' }}
       data_command: >-
