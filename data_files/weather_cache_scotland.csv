@@ -37,4 +37,8 @@ Temperature,Humidity,WindSpeed,Precipitation,WeatherCondition,WeatherDescription
 14.776000022888184,60.0,8.300000190734863,0.0,Moderate drizzle,Moderate drizzle,St Johnstone_2026-09-19,St Johnstone
 14.332500457763672,66.0,8.399999618530273,0.0,Moderate drizzle,Moderate drizzle,St Mirren_2026-09-19,St Mirren
 15.402000427246094,59.0,8.100000381469727,0.0,Slight rain,Slight rain,Kilmarnock_2026-09-19,Kilmarnock
-15.662999153137207,55.0,5.900000095367432,0.0,Light drizzle,Light drizzle,Celtic_2026-09-20,Celtic
+15.662999153137209,55.0,5.900000095367432,0.0,Light drizzle,Light drizzle,Celtic_2026-09-20,Celtic
+11.25,74.07903289794922,8.199085235595703,0.10000000149011612,Light drizzle,Light drizzle,Dundee United_2026-10-10,Dundee United
+11.25,84.31300354003906,8.74328327178955,0.30000001192092896,Moderate drizzle,Moderate drizzle,Falkirk_2026-10-10,Falkirk
+11.0,79.55390167236328,9.402128219604492,0.30000001192092896,Moderate drizzle,Moderate drizzle,Heart of Midlothian_2026-10-10,Heart of Midlothian
+10.75,83.68592834472656,7.240338325500488,0.8999999761581421,Dense drizzle,Dense drizzle,Rangers_2026-10-10,Rangers
