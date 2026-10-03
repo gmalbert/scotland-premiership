@@ -1,0 +1,157 @@
+provider_match_id	status	home_team	away_team	kickoff_utc	candidate_count	kickoff_delta_hours	kickoff_comparison
+m_4PlnO4	mapped	Heart of Midlothian	St. Mirren	2026-10-10T14:00:00+00:00	1	0.0	exact
+m_2a5Tgz	unmatched	Falkirk	Dundee FC	2026-10-10T14:00:00+00:00	0		unresolved
+m_20ok7m	mapped	Dundee United	Hibernian	2026-10-10T14:00:00+00:00	1	0.0	exact
+m_423UnB	mapped	Rangers	Kilmarnock	2026-10-10T14:00:00+00:00	1	0.0	exact
+m_3dICON	mapped	Motherwell	Celtic	2026-10-11T11:00:00+00:00	1	0.0	exact
+m_3qjgGv	mapped	Aberdeen	St. Johnstone	2026-10-11T13:00:00+00:00	1	0.0	exact
+m_0ggu4o	mapped	Hibernian	Falkirk	2026-10-17T14:00:00+00:00	1	0.0	exact
+m_4deBo6	mapped	Kilmarnock	Motherwell	2026-10-17T14:00:00+00:00	1	0.0	exact
+m_3FyFYz	mapped	Aberdeen	St. Mirren	2026-10-17T14:00:00+00:00	1	0.0	exact
+m_3zHDZq	mapped	St. Johnstone	Dundee United	2026-10-17T14:00:00+00:00	1	0.0	exact
+m_1Ptb5h	unmatched	Dundee FC	Rangers	2026-10-17T19:00:00+00:00	0		unresolved
+m_2FJlRD	mapped	Celtic	Heart of Midlothian	2026-10-18T14:00:00+00:00	1	0.0	exact
+m_40j9hb	unmatched	St. Mirren	Dundee FC	2026-10-24T14:00:00+00:00	0		unresolved
+m_17HpJS	mapped	Rangers	St. Johnstone	2026-10-24T14:00:00+00:00	1	0.0	exact
+m_3EAAjs	mapped	Dundee United	Aberdeen	2026-10-24T14:00:00+00:00	1	0.0	exact
+m_4cO8cc	mapped	Falkirk	Kilmarnock	2026-10-24T14:00:00+00:00	1	0.0	exact
+m_1ihlEN	mapped	Hibernian	Celtic	2026-10-25T12:00:00+00:00	1	0.0	exact
+m_4an5hk	mapped	Motherwell	Heart of Midlothian	2026-10-25T14:00:00+00:00	1	0.0	exact
+m_1YGaK1	mapped	St. Johnstone	Motherwell	2026-10-28T19:45:00+00:00	1	0.0	exact
+m_0IhUtW	mapped	Aberdeen	Falkirk	2026-10-28T19:45:00+00:00	1	0.0	exact
+m_0emsGF	mapped	Celtic	Dundee United	2026-10-28T19:45:00+00:00	1	0.0	exact
+m_1XtmFN	unmatched	Dundee FC	Kilmarnock	2026-10-28T19:45:00+00:00	0		unresolved
+m_2IwpT4	mapped	St. Mirren	Hibernian	2026-10-28T19:45:00+00:00	1	0.0	exact
+m_02l7cY	mapped	Heart of Midlothian	Rangers	2026-10-28T20:00:00+00:00	1	0.0	exact
+m_3MK6mk	mapped	Dundee United	Heart of Midlothian	2026-10-31T15:00:00+00:00	1	0.0	exact
+m_3cXVSL	mapped	Motherwell	St. Mirren	2026-10-31T15:00:00+00:00	1	0.0	exact
+m_1q4R8P	mapped	Kilmarnock	St. Johnstone	2026-10-31T15:00:00+00:00	1	0.0	exact
+m_0VT8uk	mapped	Falkirk	Celtic	2026-11-01T13:00:00+00:00	1	0.0	exact
+m_08tqCM	unmatched	St. Johnstone	Dundee FC	2026-11-07T15:00:00+00:00	0		unresolved
+m_0g7IpO	mapped	Dundee United	Motherwell	2026-11-07T15:00:00+00:00	1	0.0	exact
+m_2fKtRe	mapped	Aberdeen	Hibernian	2026-11-07T17:45:00+00:00	1	0.0	exact
+m_3wxe4p	mapped	St. Mirren	Rangers	2026-11-07T20:00:00+00:00	1	0.0	exact
+m_07h4W8	mapped	Heart of Midlothian	Falkirk	2026-11-08T15:00:00+00:00	1	0.0	exact
+m_26kQvF	mapped	Celtic	Kilmarnock	2026-11-08T16:00:00+00:00	1	0.0	exact
+m_1aTI5M	mapped	Kilmarnock	Aberdeen	2026-11-21T15:00:00+00:00	1	0.0	exact
+m_1DOlHW	mapped	Hibernian	Dundee United	2026-11-21T15:00:00+00:00	1	0.0	exact
+m_1CICUz	mapped	Falkirk	St. Johnstone	2026-11-21T15:00:00+00:00	1	0.0	exact
+m_4NpGUL	mapped	Celtic	St. Mirren	2026-11-21T15:00:00+00:00	1	0.0	exact
+m_1tSEmp	unmatched	Dundee FC	Heart of Midlothian	2026-11-21T17:45:00+00:00	0		unresolved
+m_3hzqES	mapped	Motherwell	Rangers	2026-11-21T20:00:00+00:00	1	0.0	exact
+m_1dnUT9	unmatched	Hibernian	Dundee FC	2026-11-24T19:45:00+00:00	0		unresolved
+m_4Ujw4a	mapped	Rangers	Aberdeen	2026-11-24T20:00:00+00:00	1	0.0	exact
+m_3u1z2F	unmatched	Aberdeen	Dundee FC	2026-11-28T15:00:00+00:00	0		unresolved
+m_2BpWOB	mapped	Dundee United	St. Johnstone	2026-11-28T15:00:00+00:00	1	0.0	exact
+m_0sA8ql	mapped	St. Mirren	Kilmarnock	2026-11-28T15:00:00+00:00	1	0.0	exact
+m_3VqOX1	mapped	Rangers	Falkirk	2026-11-28T15:00:00+00:00	1	0.0	exact
+m_20fezt	mapped	Motherwell	Hibernian	2026-11-28T17:45:00+00:00	1	0.0	exact
+m_3jeuu6	mapped	Heart of Midlothian	Celtic	2026-11-29T15:00:00+00:00	1	0.0	exact
+m_2xoX04	outside_source_window	St. Johnstone	St. Mirren	2026-12-02T19:45:00+00:00	0		unresolved
+m_37CbyR	outside_source_window	Falkirk	Motherwell	2026-12-02T19:45:00+00:00	0		unresolved
+m_13yHWO	outside_source_window	Rangers	Dundee United	2026-12-02T19:45:00+00:00	0		unresolved
+m_0evluF	outside_source_window	Dundee FC	Celtic	2026-12-02T19:45:00+00:00	0		unresolved
+m_1bNqtZ	outside_source_window	Kilmarnock	Hibernian	2026-12-02T19:45:00+00:00	0		unresolved
+m_0BNLYI	outside_source_window	Heart of Midlothian	Aberdeen	2026-12-02T19:45:00+00:00	0		unresolved
+m_19zcJm	outside_source_window	St. Mirren	Heart of Midlothian	2026-12-05T15:00:00+00:00	0		unresolved
+m_0IEgcz	outside_source_window	Motherwell	Kilmarnock	2026-12-05T15:00:00+00:00	0		unresolved
+m_3zV5Us	outside_source_window	Hibernian	Rangers	2026-12-05T15:00:00+00:00	0		unresolved
+m_1fpKTr	outside_source_window	Dundee FC	Falkirk	2026-12-05T15:00:00+00:00	0		unresolved
+m_2PXvi5	outside_source_window	Aberdeen	Dundee United	2026-12-05T15:00:00+00:00	0		unresolved
+m_3QmyP8	outside_source_window	Celtic	St. Johnstone	2026-12-05T15:00:00+00:00	0		unresolved
+m_3CxBsv	outside_source_window	St. Johnstone	Rangers	2026-12-12T15:00:00+00:00	0		unresolved
+m_11eXoU	outside_source_window	Kilmarnock	Dundee FC	2026-12-12T15:00:00+00:00	0		unresolved
+m_0b0hbW	outside_source_window	Falkirk	Aberdeen	2026-12-12T15:00:00+00:00	0		unresolved
+m_0jo684	outside_source_window	Dundee United	St. Mirren	2026-12-12T15:00:00+00:00	0		unresolved
+m_0UX4Xi	outside_source_window	Celtic	Hibernian	2026-12-13T15:00:00+00:00	0		unresolved
+m_0T5GTQ	outside_source_window	Heart of Midlothian	Motherwell	2026-12-13T15:00:00+00:00	0		unresolved
+m_1ivAbT	outside_source_window	Motherwell	Dundee FC	2026-12-19T15:00:00+00:00	0		unresolved
+m_3O3ut9	outside_source_window	Aberdeen	Celtic	2026-12-19T15:00:00+00:00	0		unresolved
+m_3AR4xT	outside_source_window	Dundee United	Kilmarnock	2026-12-19T15:00:00+00:00	0		unresolved
+m_3PEJI8	outside_source_window	Hibernian	St. Johnstone	2026-12-19T15:00:00+00:00	0		unresolved
+m_0DOmKj	outside_source_window	St. Mirren	Falkirk	2026-12-19T15:00:00+00:00	0		unresolved
+m_2agfK6	outside_source_window	Rangers	Heart of Midlothian	2026-12-20T15:00:00+00:00	0		unresolved
+m_0AuS77	outside_source_window	St. Johnstone	Aberdeen	2026-12-26T15:00:00+00:00	0		unresolved
+m_2PlQbc	outside_source_window	Dundee FC	St. Mirren	2026-12-26T15:00:00+00:00	0		unresolved
+m_48SBEl	outside_source_window	Falkirk	Dundee United	2026-12-26T15:00:00+00:00	0		unresolved
+m_0NXJMB	outside_source_window	Celtic	Motherwell	2026-12-26T15:00:00+00:00	0		unresolved
+m_0oyJmb	outside_source_window	Kilmarnock	Rangers	2026-12-26T17:45:00+00:00	0		unresolved
+m_0nPx27	outside_source_window	Heart of Midlothian	Hibernian	2026-12-27T12:00:00+00:00	0		unresolved
+m_4ZQjAx	outside_source_window	St. Johnstone	Heart of Midlothian	2026-12-30T19:45:00+00:00	0		unresolved
+m_0lYsnP	outside_source_window	Dundee United	Celtic	2026-12-30T19:45:00+00:00	0		unresolved
+m_1TBsHD	outside_source_window	Aberdeen	Motherwell	2026-12-30T19:45:00+00:00	0		unresolved
+m_4MIH1Q	outside_source_window	Hibernian	St. Mirren	2026-12-30T19:45:00+00:00	0		unresolved
+m_3sN3zM	outside_source_window	Kilmarnock	Falkirk	2026-12-30T19:45:00+00:00	0		unresolved
+m_080FAX	outside_source_window	Rangers	Dundee FC	2026-12-30T19:45:00+00:00	0		unresolved
+m_25lmwI	outside_source_window	Dundee FC	Dundee United	2027-01-02T12:30:00+00:00	0		unresolved
+m_4Vt1se	outside_source_window	Falkirk	Hibernian	2027-01-02T15:00:00+00:00	0		unresolved
+m_4dbBV8	outside_source_window	Motherwell	St. Johnstone	2027-01-02T15:00:00+00:00	0		unresolved
+m_4VlS96	outside_source_window	Heart of Midlothian	Kilmarnock	2027-01-02T15:00:00+00:00	0		unresolved
+m_3356Ew	outside_source_window	Rangers	Celtic	2027-01-03T12:00:00+00:00	0		unresolved
+m_4eQYTL	outside_source_window	St. Mirren	Aberdeen	2027-01-03T14:30:00+00:00	0		unresolved
+m_40M5Vq	outside_source_window	St. Johnstone	Falkirk	2027-01-09T15:00:00+00:00	0		unresolved
+m_14Jq4c	outside_source_window	Aberdeen	Heart of Midlothian	2027-01-09T15:00:00+00:00	0		unresolved
+m_1B3pJt	outside_source_window	Celtic	Dundee FC	2027-01-09T15:00:00+00:00	0		unresolved
+m_2zMk4z	outside_source_window	Dundee United	Rangers	2027-01-09T15:00:00+00:00	0		unresolved
+m_1uiCqQ	outside_source_window	Hibernian	Motherwell	2027-01-09T15:00:00+00:00	0		unresolved
+m_4UssDO	outside_source_window	Kilmarnock	St. Mirren	2027-01-09T15:00:00+00:00	0		unresolved
+m_0GAHMK	outside_source_window	Hibernian	Kilmarnock	2027-01-23T15:00:00+00:00	0		unresolved
+m_34QgNQ	outside_source_window	Motherwell	Dundee United	2027-01-23T15:00:00+00:00	0		unresolved
+m_1rRhgh	outside_source_window	Rangers	St. Johnstone	2027-01-23T15:00:00+00:00	0		unresolved
+m_2UTHLm	outside_source_window	Dundee FC	Aberdeen	2027-01-23T15:00:00+00:00	0		unresolved
+m_43EBp0	outside_source_window	Falkirk	Heart of Midlothian	2027-01-23T15:00:00+00:00	0		unresolved
+m_26q2Ff	outside_source_window	St. Mirren	Celtic	2027-01-24T15:00:00+00:00	0		unresolved
+m_0ka38P	outside_source_window	Kilmarnock	Motherwell	2027-01-30T15:00:00+00:00	0		unresolved
+m_21wYck	outside_source_window	Heart of Midlothian	St. Mirren	2027-01-30T15:00:00+00:00	0		unresolved
+m_0vNfih	outside_source_window	Aberdeen	Rangers	2027-01-30T15:00:00+00:00	0		unresolved
+m_2QSxwU	outside_source_window	St. Johnstone	Dundee United	2027-01-30T15:00:00+00:00	0		unresolved
+m_3kbkfj	outside_source_window	Dundee FC	Hibernian	2027-01-30T15:00:00+00:00	0		unresolved
+m_3czZ6e	outside_source_window	Celtic	Falkirk	2027-01-31T15:00:00+00:00	0		unresolved
+m_0wqy2s	outside_source_window	Heart of Midlothian	Dundee FC	2027-02-03T19:45:00+00:00	0		unresolved
+m_1kSdXL	outside_source_window	Rangers	Kilmarnock	2027-02-03T19:45:00+00:00	0		unresolved
+m_2gOfwF	outside_source_window	St. Mirren	St. Johnstone	2027-02-03T19:45:00+00:00	0		unresolved
+m_3UJ75a	outside_source_window	Aberdeen	Falkirk	2027-02-03T19:45:00+00:00	0		unresolved
+m_1L4ppH	outside_source_window	Dundee United	Hibernian	2027-02-03T19:45:00+00:00	0		unresolved
+m_0ZKpKo	outside_source_window	Motherwell	Celtic	2027-02-03T19:45:00+00:00	0		unresolved
+m_2ooKg1	outside_source_window	Dundee FC	St. Johnstone	2027-02-13T15:00:00+00:00	0		unresolved
+m_47IdMe	outside_source_window	St. Mirren	Motherwell	2027-02-13T15:00:00+00:00	0		unresolved
+m_2ELdKf	outside_source_window	Celtic	Heart of Midlothian	2027-02-13T15:00:00+00:00	0		unresolved
+m_42Own7	outside_source_window	Kilmarnock	Dundee United	2027-02-13T15:00:00+00:00	0		unresolved
+m_2Iz0fX	outside_source_window	Hibernian	Aberdeen	2027-02-13T15:00:00+00:00	0		unresolved
+m_04jL5O	outside_source_window	Falkirk	Rangers	2027-02-13T15:00:00+00:00	0		unresolved
+m_2Xd3MJ	outside_source_window	Motherwell	Heart of Midlothian	2027-02-20T15:00:00+00:00	0		unresolved
+m_2Lx9du	outside_source_window	Dundee United	Aberdeen	2027-02-20T15:00:00+00:00	0		unresolved
+m_31Ug88	outside_source_window	Falkirk	Dundee FC	2027-02-20T15:00:00+00:00	0		unresolved
+m_0axEye	outside_source_window	Hibernian	Celtic	2027-02-20T15:00:00+00:00	0		unresolved
+m_3MRomo	outside_source_window	Rangers	St. Mirren	2027-02-20T15:00:00+00:00	0		unresolved
+m_1fiLar	outside_source_window	St. Johnstone	Kilmarnock	2027-02-20T15:00:00+00:00	0		unresolved
+m_22Zk7X	outside_source_window	Heart of Midlothian	Dundee United	2027-02-27T15:00:00+00:00	0		unresolved
+m_1iMxEZ	outside_source_window	Motherwell	Falkirk	2027-02-27T15:00:00+00:00	0		unresolved
+m_0BmslS	outside_source_window	St. Mirren	Hibernian	2027-02-27T15:00:00+00:00	0		unresolved
+m_0gDQuu	outside_source_window	Celtic	Rangers	2027-02-27T15:00:00+00:00	0		unresolved
+m_09DJ8Q	outside_source_window	Dundee FC	Kilmarnock	2027-02-27T15:00:00+00:00	0		unresolved
+m_0RP1g6	outside_source_window	Aberdeen	St. Johnstone	2027-02-27T15:00:00+00:00	0		unresolved
+m_2hhCoK	outside_source_window	Hibernian	Falkirk	2027-03-13T15:00:00+00:00	0		unresolved
+m_3gdl64	outside_source_window	Rangers	Motherwell	2027-03-13T15:00:00+00:00	0		unresolved
+m_3FXXOQ	outside_source_window	St. Johnstone	Celtic	2027-03-13T15:00:00+00:00	0		unresolved
+m_43yHej	outside_source_window	Aberdeen	St. Mirren	2027-03-13T15:00:00+00:00	0		unresolved
+m_4dF1Y4	outside_source_window	Dundee United	Dundee FC	2027-03-13T15:00:00+00:00	0		unresolved
+m_1bLpe5	outside_source_window	Kilmarnock	Heart of Midlothian	2027-03-13T15:00:00+00:00	0		unresolved
+m_4d7BMy	outside_source_window	Dundee FC	Motherwell	2027-03-20T15:00:00+00:00	0		unresolved
+m_2YbYAp	outside_source_window	St. Johnstone	Hibernian	2027-03-20T15:00:00+00:00	0		unresolved
+m_2w8umx	outside_source_window	Heart of Midlothian	Rangers	2027-03-20T15:00:00+00:00	0		unresolved
+m_1dxL1K	outside_source_window	Falkirk	Kilmarnock	2027-03-20T15:00:00+00:00	0		unresolved
+m_1Znbb6	outside_source_window	St. Mirren	Dundee United	2027-03-20T15:00:00+00:00	0		unresolved
+m_3SpDQ3	outside_source_window	Celtic	Aberdeen	2027-03-20T15:00:00+00:00	0		unresolved
+m_2sjFLS	outside_source_window	Dundee United	Falkirk	2027-04-03T14:00:00+00:00	0		unresolved
+m_3CDg7d	outside_source_window	St. Mirren	Dundee FC	2027-04-03T14:00:00+00:00	0		unresolved
+m_3vVgMP	outside_source_window	Rangers	Hibernian	2027-04-03T14:00:00+00:00	0		unresolved
+m_2MzBky	outside_source_window	Motherwell	Aberdeen	2027-04-03T14:00:00+00:00	0		unresolved
+m_24l2Sb	outside_source_window	Kilmarnock	Celtic	2027-04-03T14:00:00+00:00	0		unresolved
+m_46ROTI	outside_source_window	Heart of Midlothian	St. Johnstone	2027-04-03T14:00:00+00:00	0		unresolved
+m_0zZ4JC	outside_source_window	Aberdeen	Kilmarnock	2027-04-10T14:00:00+00:00	0		unresolved
+m_38l0LQ	outside_source_window	St. Johnstone	Motherwell	2027-04-10T14:00:00+00:00	0		unresolved
+m_2V2dGA	outside_source_window	Hibernian	Heart of Midlothian	2027-04-10T14:00:00+00:00	0		unresolved
+m_2VMZSh	outside_source_window	Falkirk	St. Mirren	2027-04-10T14:00:00+00:00	0		unresolved
+m_4en2L7	outside_source_window	Dundee FC	Rangers	2027-04-10T14:00:00+00:00	0		unresolved
+m_1Jo765	outside_source_window	Celtic	Dundee United	2027-04-10T14:00:00+00:00	0		unresolved

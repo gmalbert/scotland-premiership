@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import pickle
+import json
 import sys
 
 import pandas as pd
@@ -15,6 +16,7 @@ from pitch_oracle_core import (
     FeatureContract,
     add_weather_features,
     build_prediction_frame,
+    production_probabilities,
     build_upcoming_feature_matrix,
 )
 from pitch_oracle_core.best_bets import MIN_EDGE, MIN_EXPECTED_VALUE, market_metrics
@@ -75,6 +77,15 @@ def add_market_recommendations(predictions: pd.DataFrame, odds_path: Path) -> pd
     return merged
 
 
+def production_candidate() -> str:
+    report = json.loads((ROOT / "precomputed/model-audit/model_ablation.json").read_text(encoding="utf-8"))
+    gate = report.get("release_gate", {})
+    candidate = gate.get("production_candidate")
+    if not gate.get("passed") or candidate not in ("no_odds", "poisson"):
+        raise RuntimeError("Model audit did not validate a production candidate")
+    return candidate
+
+
 def generate() -> Path:
     historical = pd.read_csv(
         ROOT / "data_files" / "combined_historical_data_with_calculations_new.csv",
@@ -103,7 +114,8 @@ def generate() -> Path:
         if feature in contract.feature_names:
             upcoming[feature] = matrix[:, contract.feature_names.index(feature)]
     output = ROOT / "data_files" / "upcoming_predictions.csv"
-    predictions = build_prediction_frame(upcoming, model.predict_proba(matrix))
+    probabilities = production_probabilities(historical, upcoming, contract, production_candidate=production_candidate(), models_dir=ROOT / "models", league_key=LEAGUE_CONFIG.key, data_dir=ROOT / "data_files")
+    predictions = build_prediction_frame(upcoming, probabilities)
     predictions = add_market_recommendations(predictions, ROOT / "data_files" / "odds.csv")
     predictions.to_csv(output, index=False)
     return output

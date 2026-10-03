@@ -1,0 +1,1 @@
+{"configuration": {"enabled_families": [], "evidence_id": null, "league_key": "scotland", "version": 1}, "models": {"baseline": {"feature_count": 36, "fingerprint": "66cb513fc6462e97adb16eff823076db2cf1b137f666b825b8896e7ece6d24b8", "model_id": "pitchapi-baseline-v1"}}, "schema_version": 1}
