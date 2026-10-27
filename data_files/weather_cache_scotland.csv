@@ -56,19 +56,19 @@ Temperature,Humidity,WindSpeed,Precipitation,WeatherCondition,WeatherDescription
 12.182499885559082,93.0,8.399999618530273,4.699999809265137,Moderate rain,Moderate rain,St Mirren_2026-10-24,St Mirren
 8.552499771118164,61.0,10.100000381469727,0.0,Moderate rain,Moderate rain,Hibernian_2026-10-25,Hibernian
 8.30049991607666,63.0,11.100000381469727,0.10000000149011612,Moderate rain,Moderate rain,Motherwell_2026-10-25,Motherwell
-11.577500343322754,76.0,4.0,0.0,Light drizzle,Light drizzle,Aberdeen_2026-10-28,Aberdeen
-11.944000244140625,82.0,5.400000095367432,0.0,Dense drizzle,Dense drizzle,Celtic_2026-10-28,Celtic
-11.6875,80.0,5.900000095367432,0.0,Slight rain,Slight rain,Dundee_2026-10-28,Dundee
-11.157999992370605,85.0,3.799999952316284,0.0,Slight rain,Slight rain,St Johnstone_2026-10-28,St Johnstone
-12.170000076293945,80.0,4.900000095367432,0.0,Moderate drizzle,Moderate drizzle,St Mirren_2026-10-28,St Mirren
-12.294500350952148,76.0,5.199999809265137,0.0,Light drizzle,Light drizzle,Heart of Midlothian_2026-10-28,Heart of Midlothian
-11.250499725341797,97.0,2.4000000953674316,0.20000000298023224,Light drizzle,Light drizzle,Dundee United_2026-10-31,Dundee United
-12.815000534057617,95.0,1.7999999523162842,0.10000000149011612,Moderate drizzle,Moderate drizzle,Kilmarnock_2026-10-31,Kilmarnock
-11.713000297546387,95.0,1.899999976158142,0.4000000059604645,Moderate drizzle,Moderate drizzle,Motherwell_2026-10-31,Motherwell
-10.837000846862793,90.0,2.0,0.0,Light drizzle,Light drizzle,Falkirk_2026-11-01,Falkirk
-8.199999809265137,86.3152847290039,5.435301303863525,0.10000000149011612,Light drizzle,Light drizzle,Dundee United_2026-11-07,Dundee United
-8.100000381469727,89.33263397216797,4.481350421905518,0.10000000149011612,Light drizzle,Light drizzle,St Johnstone_2026-11-07,St Johnstone
-8.949999809265137,79.80621337890625,4.2026777267456055,0.0,Light drizzle,Light drizzle,Aberdeen_2026-11-07,Aberdeen
-8.449999809265137,87.23705291748047,4.315669059753418,0.0,Overcast,Overcast,St Mirren_2026-11-07,St Mirren
-9.199999809265137,85.82623291015625,6.543126106262207,0.10000000149011612,Light drizzle,Light drizzle,Heart of Midlothian_2026-11-08,Heart of Midlothian
-9.5,83.82432556152344,6.7366533279418945,0.10000000149011612,Light drizzle,Light drizzle,Celtic_2026-11-08,Celtic
+11.79699993133545,81.0,2.700000047683716,0.0,Light drizzle,Light drizzle,Aberdeen_2026-10-28,Aberdeen
+12.662999153137207,77.0,4.800000190734863,0.0,Moderate drizzle,Moderate drizzle,Celtic_2026-10-28,Celtic
+12.15149974822998,81.0,4.900000095367432,0.0,Moderate drizzle,Moderate drizzle,Dundee_2026-10-28,Dundee
+11.925999641418457,78.0,3.4000000953674316,0.0,Dense drizzle,Dense drizzle,St Johnstone_2026-10-28,St Johnstone
+12.582500457763672,77.0,3.700000047683716,0.0,Slight rain,Slight rain,St Mirren_2026-10-28,St Mirren
+12.634500503540039,76.0,5.0,0.0,Moderate drizzle,Moderate drizzle,Heart of Midlothian_2026-10-28,Heart of Midlothian
+10.30049991607666,80.0,0.800000011920929,0.0,Overcast,Overcast,Dundee United_2026-10-31,Dundee United
+10.164999961853027,92.0,2.0999999046325684,0.0,Fog,Fog,Kilmarnock_2026-10-31,Kilmarnock
+10.413000106811523,92.0,1.7999999523162842,0.0,Light drizzle,Light drizzle,Motherwell_2026-10-31,Motherwell
+8.28700065612793,89.0,1.0,0.0,Fog,Fog,Falkirk_2026-11-01,Falkirk
+9.0,64.45117950439453,3.9357337951660156,0.0,Light drizzle,Light drizzle,Dundee United_2026-11-07,Dundee United
+6.699999809265137,86.76565551757812,1.3086252212524414,0.0,Overcast,Overcast,St Johnstone_2026-11-07,St Johnstone
+9.699999809265137,63.25507354736328,4.352298259735107,0.0,Light drizzle,Light drizzle,Aberdeen_2026-11-07,Aberdeen
+7.449999809265137,80.71166229248047,3.3185086250305176,0.0,Overcast,Overcast,St Mirren_2026-11-07,St Mirren
+6.800000190734863,85.57220458984375,2.350532054901123,0.0,Partly cloudy,Partly cloudy,Heart of Midlothian_2026-11-08,Heart of Midlothian
+7.0,87.09806060791016,2.482438087463379,0.0,Fog,Fog,Celtic_2026-11-08,Celtic
